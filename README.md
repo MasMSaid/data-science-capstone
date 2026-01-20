@@ -37,32 +37,18 @@ The project is divided into three main sections:
 
 1️⃣ **Employee Dataset**
 
-**File**: employee_dataset.csv
+- **File**: employee_dataset.csv
 
-This dataset contains employee demographics, job information, income, tenure, satisfaction levels, and attrition status.
+- Contains employee demographics, job information, income, tenure, satisfaction levels, and attrition status.
 
-**Key features include**:
-
-- Age, MonthlyIncome, YearsAtCompany
-
-- JobRole, Department, JobLevel
-
-- JobSatisfaction, WorkLifeBalance
-
-- Attrition (Yes / No)
+- Key features: Age, MonthlyIncome, YearsAtCompany, JobRole, Department, JobLevel, JobSatisfaction, WorkLifeBalance, Attrition
 
 
 2️⃣ **Customer Reviews Dataset**
 
-**File**: Reviews.xlsx
+- **File**: Reviews.xlsx
 
-Contains hospitality service reviews, including:
-
-- Review text and ratings
-
-- Review dates
-
-- Hotel and location metadata
+- Contains hospitality service reviews: Review text, ratings, dates, hotel, and location metadata
 
 
 ## 🔍 **Section A: Employee Attrition Analysis (Python)**
@@ -101,6 +87,17 @@ Contains hospitality service reviews, including:
 Employee attrition is driven primarily by **experience-related factors** (work-life balance, job satisfaction, role pressure), not salary alone.
 
 
+**📝 Business Recommendations**
+
+1. Improve work-life balance via flexible policies
+
+2. Introduce role-specific retention strategies
+
+3. Launch early-career mentorship programs
+
+4. Track job satisfaction with regular surveys
+
+
 
 ## 📊 **Section B: Employee Attrition Dashboard (Tableau)**
 
@@ -130,16 +127,6 @@ Employee attrition is driven primarily by **experience-related factors** (work-l
 - **Work-life balance** is the strongest predictor of retention
 
 - Younger employees (<40) show higher mobility
-
-**Business Recommendations**
-
-1. Improve work-life balance via flexible policies
-
-2. Introduce role-specific retention strategies
-
-3. Launch early-career mentorship programs
-
-4. Track job satisfaction with regular surveys
 
 
 ## 🧠 **Section C: Customer Sentiment Analysis & Machine Learning (Python)**
@@ -262,11 +249,34 @@ TF-IDF provided superior feature representation and was used as input for the AN
 
 
 
-## 🔑 **Top Service Keywords**
+🔑 **Top Service Keywords**
 
 | **Positive**                                             | **Negative**                            |
 | ---------------------------------------------------- | ----------------------------------- |
 | room, hotel, stay, staff, clean, breakfast, location | room, bad, bed, noise, night, check |
+
+
+**📝 Business Recommendations (Customer Sentiment)**
+
+1. **Room & Bed Comfort**
+   - Inspect rooms with frequent complaints.
+   - Upgrade bedding or fix maintenance issues in problem rooms.
+
+2. **Check-in/Check-out Process**
+   - Streamline check-in procedures to reduce negative mentions.
+   - Provide staff training to improve guest experience during arrival/departure.
+
+3. **Noise Management**
+   - Investigate "night" complaints: noisy neighbours, thin walls, or external disturbances.
+   - Consider soundproofing or quieter room allocations.
+
+4. **Staff Training & Support**
+   - Staff praised overall, but negative mentions show room for improvement in handling specific issues.
+   - Ensure consistency in service quality across shifts.
+
+5. **Monitor Mixed Feedback**
+   - Words like "good" appear in both positive and negative, indicating inconsistent guest experiences.
+   - Implement feedback follow-ups to understand why expectations are sometimes not met.
 
 
 ## 💼 **Business Value Delivered**
