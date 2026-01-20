@@ -53,7 +53,7 @@ The project is divided into three main sections:
 
 ## 🔍 **Section A: Employee Attrition Analysis (Python)**
 
-📓 *Notebook: Section_A_Employee_Attrition_Analysis.ipynb*
+[*📓 Notebook: Section_A_Employee_Attrition_Analysis.ipynb*](https://github.com/MasMSaid/data-science-capstone/blob/main/notebooks/Section_A_Employee_Attrition_Analysis.ipynb)
 
 **Analysis Workflow**
 
@@ -133,7 +133,7 @@ Employee attrition is driven primarily by **experience-related factors** (work-l
 
 ## 🧠 **Section C: Customer Sentiment Analysis & Machine Learning (Python)**
 
-*📓 Notebook: Section_C_Customer_Sentiment_Analysis.ipynb*
+[*📓 Notebook: Section_C_Customer_Sentiment_Analysis.ipynb*](https://github.com/MasMSaid/data-science-capstone/blob/main/notebooks/Section_C_Customer_Sentiment_Analysis.ipynb)
 
 **Analysis Pipeline**
 
@@ -169,8 +169,6 @@ Employee attrition is driven primarily by **experience-related factors** (work-l
 
 To prepare text data for machine learning, two vectorisation techniques were evaluated:
 
-![Word Cloud Visualization](BoW.png)
-
 **Bag of Words (BoW)**
 
 - Counts word frequency across documents
@@ -205,6 +203,8 @@ To prepare text data for machine learning, two vectorisation techniques were eva
 - **Negative drivers**: bad, bed, noise, night, check
 
 - Overlapping terms (room, staff, good) indicate **inconsistent service quality**
+
+![Word Cloud Visualization](BoW.png)
 
 
 **📌 Conclusion**:
