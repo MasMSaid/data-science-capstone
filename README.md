@@ -169,7 +169,7 @@ Employee attrition is driven primarily by **experience-related factors** (work-l
 
 To prepare text data for machine learning, two vectorisation techniques were evaluated:
 
-[Word Cloud Visualization](BoW.png)
+![Word Cloud Visualization](BoW.png)
 
 **Bag of Words (BoW)**
 
