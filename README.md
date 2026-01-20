@@ -72,6 +72,8 @@ The project is divided into three main sections:
 
 **Key Findings**
 
+![Staff Distribution by Monthly Income](distribution_monthly_income.png)
+
 | **Area**              | **Insight**                                                |
 | ----------------- | ------------------------------------------------------ |
 | Income Range      | $1,009 – $19,999                                       |
@@ -166,6 +168,8 @@ Employee attrition is driven primarily by **experience-related factors** (work-l
 ## 🔤 **Text Feature Engineering: BoW vs TF-IDF**
 
 To prepare text data for machine learning, two vectorisation techniques were evaluated:
+
+[Word Cloud Visualization](BoW.png)
 
 **Bag of Words (BoW)**
 
